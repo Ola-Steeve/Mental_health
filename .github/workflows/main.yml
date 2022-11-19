@@ -45,7 +45,7 @@ jobs:
         DB_USER: postgres
         DB_PASS: postgres
         DB_BASE: db_test
-      run: cd app && pytest .
+      run: cd Mental_health_backend/app && pytest .
 
 
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
