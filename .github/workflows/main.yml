@@ -68,7 +68,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: '**/package-lock.json'
+        cache-dependency-path: '**/package.json'
     - run: npm install ./Mental_health_frontend
-    - run: npm --prefix ./Mental_health_frontend run build
     
